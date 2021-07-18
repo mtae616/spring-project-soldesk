@@ -1,0 +1,84 @@
+.reply {
+	margin-top: 30px;
+}
+
+.reply .inner {
+	width: 1100px;
+	margin: auto;
+}
+
+.reply form {
+	width: 100%;
+}
+
+.reply form .reply__header {
+	padding-left: 20px;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.reply form .reply__submit {
+	display: flex;
+	margin-top: 15px;
+}
+
+.reply form .reply__submit .text {
+	width: 80%;
+	height: 30px;
+	outline: #02343F;
+	height: 50px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.reply form .reply__submit .submit {
+	width: 20%;
+	color: #F0EDCC;
+	background-color: #02343F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 57px;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.reply form .reply__body {
+	
+}
+
+.reply form .reply__body>div {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px solid lightgray;
+}
+
+.reply form .reply__body div .reply__write {
+	width: 20%;
+	border-top: 0;
+	border-right: 0;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.reply form .reply__body div .reply__content {
+	width: 80%;
+	border-top: 0;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.reply form .reply__body div .reply__writer {
+	width: 20%;
+	border-top: 0;
+	border-right: 0;
+}
+
+.reply form .reply__body div .reply__contents {
+	width: 80%;
+	text-align: left;
+	border-top: 0;
+}

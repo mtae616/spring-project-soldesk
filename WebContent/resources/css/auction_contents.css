@@ -1,0 +1,239 @@
+body {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.inner {
+	max-width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content {
+	margin-top: 150px;
+}
+
+.content .inner {
+	
+}
+
+.content .inner .content__wrapper {
+	display: flex;
+}
+
+.content .inner .content__wrapper .left__side {
+	flex-grow: 1;
+	width: 70%
+}
+
+.content .inner .content__wrapper .left__side .img__section {
+	margin: 10px;
+}
+
+.content .inner .content__wrapper .left__side .img__section>img {
+	height: 700px;
+	width: 100%;
+	object-fit: contain;
+}
+
+.content .inner .content__wrapper .left__side .contents__wrapper {
+	height: 200px;
+	display: block;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+
+.content .inner .content__wrapper .left__side .contents__wrapper .content__sub
+	{
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.content .inner .content__wrapper .left__side .contents__wrapper .content__writer
+	{
+	margin-top: 10px;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.content .inner .content__wrapper .left__side .contents__wrapper .content__content
+	{
+	margin-top: 10px;
+	box-sizing: border-box;
+	color: #a9a9a9;
+}
+
+.reply__ {
+	width: 100%;
+	margin-bottom: 400px;
+}
+
+.reply__ .reply__submit__wrapper {
+	margin-top: 15px;
+}
+
+.reply__ .reply__submit__wrapper .reply__write {
+	display: flex;
+}
+
+.reply__ .reply__submit__wrapper .reply__write>input {
+	width: 78%;
+	outline: #02343F;
+	height: 50px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.reply__ .reply__submit__wrapper .reply__write .reply__submit {
+	width: 20%;
+	color: #F0EDCC;
+	background-color: #02343F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 57px;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.reply__ .reply__section>div {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px solid lightgray;
+}
+
+.reply__ .reply__section div .reply__write {
+	width: 20%;
+	border-top: 0;
+	border-right: 0;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.reply__ .reply__section div .reply__content {
+	width: 80%;
+	border-top: 0;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.reply__ .reply__section div .reply__writer {
+	width: 20%;
+	border-top: 0;
+	border-right: 0;
+}
+
+.reply__ .reply__section div .reply__contents {
+	width: 80%;
+	text-align: left;
+	border-top: 0;
+}
+
+.btnbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.btnbox a {
+	margin-left: 30px;
+	color: #fff;
+	background-color: #656565;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.content .inner .content__wrapper .right__side {
+	position: sticky;
+	top: 0;
+	width: 30%;
+	align-self: flex-start;
+}
+
+.content .inner .content__wrapper .right__side>li .info {
+	font-size: x-large;
+}
+
+.content .inner .content__wrapper .right__side>li {
+	margin-top: 60px;
+}
+
+.content .inner .content__wrapper .right__side>li>div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content .inner .content__wrapper .right__side .now_ing {
+	height: 100px;
+	font-size: 3rem;
+}
+
+.content .inner .content__wrapper .right__side .time {
+	height: 100px;
+	font-size: 3rem;
+}
+
+.content .inner .content__wrapper .right__side .price {
+	height: 100px;
+	font-size: 3rem;
+}
+
+.content .inner .content__wrapper .right__side .price__section {
+	display: block;
+	height: 100px;
+	margin-top: 30px;
+}
+
+.content .inner .content__wrapper .right__side .price__write {
+	width: 80%;
+	margin: auto;
+}
+
+.content .inner .content__wrapper .right__side .price__section .price__write>input
+	{
+	padding: 10px;
+	outline: none;
+	border: 1px solid #656565;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.content .inner .content__wrapper .right__side .price__section .price__write>input:hover
+	{
+	border: 1px solid #4285f4;
+}
+
+.content .inner .right__side .price__submit {
+	background-color: #02343F;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.content .inner .right__side .price__submit>span {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.reply__contents {
+	box-sizing: border-box;
+}

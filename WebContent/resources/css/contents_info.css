@@ -1,0 +1,125 @@
+body {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.title {
+	position: relative;
+	background-color: #02343F;
+	color: #F0EDCC;
+	margin-top: 150px;
+	height: 60px;
+	text-align: center;
+	font-size: xx-large;
+	padding: 15px;
+	line-height: 60px;
+}
+
+.inner {
+	max-width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* CONTENTFORM */
+.content .content__form {
+	width : 100%;
+	padding-bottom: 100px;
+}
+
+.content .content__form .content__wrapper {
+	margin:auto;
+	height: 600px;
+	font-weight: bolder;
+}
+
+.content .content__form .content__wrapper .subndate {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 100px;
+	line-height: 100px;
+}
+
+.content .content__form .content__wrapper .subndate .subject {
+	display: inline-block;
+	margin-left: 3%;
+	width: 80%;
+	font-size: xx-large;
+}
+
+.content .content__form .content__wrapper .subndate .date {
+	display: inline-block;
+	width: 15%;
+}
+
+.content .content__form .content__wrapper .writernread {
+	height: 70px;
+	line-height: 70px;
+	border-bottom: 1px solid lightgray;
+}
+
+.content .content__form .content__wrapper .writernread .writer {
+	display: inline-block;
+	margin-left: 3%;
+	width: 88%;
+	font-size: large;
+}
+
+.content .content__form .content__wrapper .writernread .readcnt {
+	display: inline-block;
+	width: 8%;
+}
+
+.content .content__form .content__wrapper .contentbody {
+	height: 500px;
+}
+
+.content .content__form .content__wrapper .contentbody .content{
+	padding: 15px;
+	margin-left: 2%;
+}
+
+.content .content__form .content__wrapper .imgsrc {
+	width: 500px;
+}
+
+.content .content__form .content__wrapper .content {
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	resize: none;
+}
+
+.content .content__form > .btn__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.content .content__form > .btn__wrapper a {
+	margin-left: 30px;
+	color: #fff;
+	background-color: #656565;
+	border-radius: 10px;
+	padding: 15px;
+}
+.content .content__form > .btn__wrapper .sub {
+	margin-left: 30px;
+	color: #fff;
+	background-color: #656565;
+	border-radius: 10px;
+	padding: 15px;
+	cursor : pointer;
+}

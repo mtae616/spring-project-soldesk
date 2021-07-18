@@ -1,0 +1,52 @@
+.content .inner {
+	width: 100%;
+	margin-top: 150px;
+}
+
+.content__form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.content__form div {
+	margin-bottom: 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+.text1 {
+	width: 500px;
+	height: 50px;
+	border: solid 3px;
+}
+
+.text2 {
+	width: 500px;
+	height: 300px;
+	border: solid 3px;
+}
+
+.text3 {
+	width: 500px;
+	border: solid 3px;
+}
+
+.btnbox {
+	display: flex;
+	margin-top: 50px;
+	width: 100%;
+	height: 50px;
+}
+
+.b1 {
+	box-shadow: gainsboro 5px 5px;
+	border-color: white;
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	background-color: #02343F;
+	color: white;
+	margin: auto;
+}

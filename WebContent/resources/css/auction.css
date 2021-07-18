@@ -1,0 +1,129 @@
+body {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.state {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.state div {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	margin-left: 20px;
+}
+
+.red {
+	background-color: rgb(230, 63, 45);
+}
+
+.green {
+	background-color: rgb(65, 167, 80);
+}
+
+.gray {
+	background-color: #f2f2f2;
+}
+	
+.inner {
+	max-width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* BOARD */
+.board {
+	width: 100%;
+}
+
+.board .board-body {
+	margin-top: 130px;
+	top: 80px;
+}
+
+.proceeding_light {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.board .board-body .image-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.board .board-body .image-wrapper .image {
+	margin-right: 20px;
+	margin-top: 50px;
+	border: 5px solid #f6f5f0;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+	box-sizing: border-box;
+}
+
+.board .board-body .image-wrapper .image>a {
+	color: #333;
+}
+
+.board .board-body .image-wrapper .image>a>img {
+	width: 330px;
+}
+
+.board .board-body .image-wrapper .content {
+	text-align: center;
+}
+
+.btn-group>.inner {
+	position: relative;
+}
+
+.btn-group .btn-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	left: 0;
+	right: 0;
+}
+
+.btn-group .btn-wrapper .btn--more {
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	background-color: lightgray;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-group .btn__register {
+	position: absolute;
+	right: 0;
+}
+
+.btn-group .btn__register>a>div {
+	outline: none;
+	background-color: cornflowerblue;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
